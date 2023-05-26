@@ -1,0 +1,23 @@
+{
+  "name": "javascript-challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lydia-GG/JavaScript-Challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lydia-GG/JavaScript-Challenges/issues"
+  },
+  "homepage": "https://github.com/Lydia-GG/JavaScript-Challenges#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
