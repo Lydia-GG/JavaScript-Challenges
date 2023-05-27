@@ -10,8 +10,7 @@ Implement the function which takes an array containing the names of people that 
 
 Note: For 4 or more names, the number in "and 2 others" simply increases.`;
 
-function likes(names) {
-  `
+` answer steps:
   - check the array length
   - if length < 1 --> 'no one likes this'
   - if length === 1 --> 'Peter likes this'
@@ -20,6 +19,7 @@ function likes(names) {
   - if length more than 3 we will display the first two names and the number of the length of the array - 2 --> 'Alex, Jacob and 2 others like this'
 `;
 
+function likes(names) {
   if (names.length < 1) {
     return 'no one likes this';
   } else if (names.length === 1) {
@@ -32,28 +32,5 @@ function likes(names) {
     return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
   }
 }
-
-`or:
- function likes(names) {
-  switch (names.length) {
-    case 0:
-      return 'no one likes this';
-    case 1:
-      return names[0] + ' likes this';
-    case 2:
-      return names[0] + ' and ' + names[1] + ' like this';
-    case 3:
-      return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this';
-    default:
-      return (
-        names[0] +
-        ', ' +
-        names[1] +
-        ' and ' +
-        (names.length - 2) +
-        ' others like this'
-      );
-  }
-}`;
 
 module.exports = likes;
