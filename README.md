@@ -1,1 +1,2 @@
 # JavaScript-Challenges
+JavaScript Challenges
