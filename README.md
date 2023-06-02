@@ -1,2 +1,2 @@
 # JavaScript-Challenges
-JavaScript Challenges and
+JavaScript Challenges and answer
