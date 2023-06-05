@@ -36,7 +36,6 @@ function getCount(str) {
   return (str.match(/[aeiou]/ig)||[]).length;
 }
 
-3- or using includes
 `;
 
 module.exports = getCount;
